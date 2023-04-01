@@ -1,0 +1,89 @@
+/*
+table {
+	border: 1px solid #C6C6C6;
+	border-spacing: 10px;
+	border-collapse: collapse;
+	width:600px;
+	margin-left:30px;
+	}
+table, td, th {
+    border: 1px solid #C6C6C6;
+	padding:10px;
+}
+
+#th {
+width:200px;}
+
+
+#isi table {
+	border-radius: 1px solid #C6C6C6;
+	border-spacing: 5px;
+	border-collapse: collapse;
+	width:0px;
+	margin-left:-10px;
+	}
+#isi  td, th {
+    border: 1px solid #C6C6C6;
+	padding:2px;
+	height:30px;
+	
+}
+
+.isi {
+color:#fff;
+}
+
+#isi input[type=submit]{
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #999;
+	margin-left:20px;
+    padding: 5px;
+    width: 100px;
+}
+
+#isi input[type=number]{
+    border: 1px solid #999;
+	margin-left:0px;
+    padding: 1px;
+    width: 50px;
+}
+
+
+#isi input[type=reset]{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #999;
+    padding: 5px;
+    width: 100px;
+	margin-left:20px;
+
+}
+
+
+#artikel-analisa table {
+	border-radius: 1px solid #C6C6C6;
+	border-spacing: 5px;
+	border-collapse: collapse;
+	width:0px;
+	margin-left:-10px;
+	}
+#artikel-analisa  td, th {
+    border: 1px solid #C6C6C6;
+	padding:2px;
+	height:30px;
+	
+}
+
+#artikel-rangking table {
+	border-radius: 1px solid #C6C6C6;
+	border-spacing: 5px;
+	border-collapse: collapse;
+	width:0px;
+	margin-left:-10px;
+	}
+#artikel-rangking  td, th {
+    border: 1px solid #C6C6C6;
+	padding:2px;
+	height:30px;
+	
+}
+*/

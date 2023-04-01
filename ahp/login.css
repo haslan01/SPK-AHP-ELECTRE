@@ -1,0 +1,59 @@
+*{
+	margin:0px;
+	padding: 0;
+	font-style: calibri, "segeo ui", arial, tahoma, sans-serif;
+}
+
+
+body{
+	background-color: #f0f0f0;
+}
+
+#wrapper{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 50px;
+	overflow: hidden;
+	background-color:#FFFFFF;
+	box-shadow:0px 0px 4px 0px #ddd;
+
+}
+
+#header{
+	background-color:#01B2FA;
+	height: 100px;
+	padding-top: 10px;
+	margin: 10px;
+	overflow: hidden;
+	color: #ffffff;
+	font-family:'Open Sans', sans-serif;
+	font-size:18px;
+}
+
+
+#content{
+	background-color: #FFFFFF;
+	height:auto;
+	padding: 0px;
+	margin: 10px;
+	overflow: hidden;}
+#halaman{
+	border:1px solid #ddd;
+	height: 200px;
+	width:478px;
+	margin-left:0px;
+	font-family:'Open Sans', sans-serif;
+	color:#999;
+	}
+	
+#footer{
+	clear: both;
+	text-align: center;
+	background-color: #01B2FA;
+	padding: 5px;
+	color: #ffffff;
+	margin: 10px;
+	font-family:'Open Sans', sans-serif;
+	font-size:12px;
+}
+	

@@ -1,0 +1,404 @@
+*{
+	margin:0px;
+	padding: 0;
+	font-style: calibri, "segeo ui", arial, tahoma, sans-serif;
+}
+
+body{
+	background:url(../images/bg11.jpg);
+}
+
+p{
+
+margin-left:200px;
+}
+
+
+#wrapper{
+
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background:#FFFFFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height: 110px;
+	width:auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#header img{
+margin-left:250px;
+margin-top:15px;
+}
+
+#header h2{
+margin-left:350px;
+margin-top:20px;
+color:#330099;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+#header h3{
+margin-left:350px;
+margin-top:0px;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+#header h4{
+margin-left:350px;
+margin-top:0px;
+font-family:'Trebuchet MS', sans-serif;
+}
+#sidebar{
+	width:180px;
+	height:auto;
+	float:left;
+	margin: 20px 0px;
+
+
+}
+
+#sidebar h1{
+	color:#262626;
+	width: 170px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom:10px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	
+	}
+
+#sidebar ul li{
+	width:170px;
+	padding-left: 20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #f0f0f0;
+	font-family:'Open Sans', sans-serif;
+	font-size:13px;
+}
+
+
+#sidebar a{
+	color:#262626;
+	text-decoration: none; display: block;
+	width: 180px;
+}
+
+#sidebar a:hover{
+	color:#330099;
+	text-decoration: none; 
+	display: block;
+	margin-left:2px;
+
+}
+
+#content{
+	background-color: #FFFFFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height:auto;
+	padding-left: 5px;
+	margin: 30px;
+	margin-left:220px;
+	overflow: hidden;
+	width:900px;
+	border-radius:5px;
+	}
+
+#content-analisa{
+	background-color: #FFFFFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height:auto;
+	padding-left: 5px;
+	margin: 30px;
+	margin-left:70px;
+	overflow: hidden;
+	width:1200px;
+	border-radius:5px;
+	}
+
+	#content-rangking{
+	background-color: #FFFFFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height:auto;
+	padding-left: 5px;
+	margin: 30px;
+	margin-left:0px;
+	overflow: hidden;
+	width:1360px;
+	border-radius:5px;
+	}
+
+#artikel{
+	width:650px;
+	height:auto;
+	float:left;
+	font-family:'Arial', sans-serif;
+	font-size:13px;
+	color:#262626;
+	padding-left:10px;
+	padding-bottom:40px;
+	margin-left:35px;
+	margin-top:20px;
+
+
+}
+
+#artikel-analisa{
+	width:650px;
+	height:auto;
+	float:left;
+	font-family:'Arial', sans-serif;
+	font-size:13px;
+	color:#262626;
+	padding-left:10px;
+	padding-bottom:40px;
+	margin-left:35px;
+	margin-top:20px;
+
+
+}
+
+#artikel-rangking{
+	width:650px;
+	height:auto;
+	float:left;
+	font-family:'Arial', sans-serif;
+	font-size:13px;
+	color:#262626;
+	padding-left:10px;
+	padding-bottom:40px;
+	margin-left:35px;
+	margin-top:20px;
+
+}
+
+
+
+#artikel h1{
+	color:#262626;
+	width: 650px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	margin-left:-10px;
+	//border-bottom:1px solid #ddd;
+	background:#f0f0f0;
+	}
+
+#artikel-analisa h1{
+	color:#262626;
+	width: 960px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	margin-left:-10px;
+	//border-bottom:1px solid #ddd;
+	background:#f0f0f0;
+	}
+
+#artikel-rangking h1{
+	color:#262626;
+	width: 1120px;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom:10px;
+	text-align:center;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	margin-left:-10px;
+	//border-bottom:1px solid #ddd;
+	background:#f0f0f0;
+	}
+
+	
+#artikel img{
+margin-right:200px;
+}
+
+#footer{
+	clear: both;
+	text-align: center;
+	color: #fff;
+	font-family:'Open Sans', sans-serif;
+	font-size:12px;
+}
+
+form{
+border: 0px solid #C6C6C6;
+border: 0px solid #C6C6C6;
+}
+
+input[type=reset]{
+background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 20px -130px;
+    padding: 5px;
+    width: 100px;
+
+}
+input[type=submit]{
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 10px 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    cursor: pointer;
+}
+
+input[type=submit]:active,
+input[type=reset]:active {
+    background: #0088CC;
+}
+
+input[type=submit],
+input[type=reset] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+		font-family:'Trebuchet MS', sans-serif;
+}
+
+
+select,
+input[type=text],
+input[type=password],
+input[type=date] {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 225px;
+
+}
+
+select{
+width: 64px;
+}
+
+#menu-link a{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 0px solid #999;
+    margin: 10px 470px;
+    padding: 8px;
+    width: 20px;
+	color:#fff;
+	text-decoration:none;
+}
+.excel{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width:40px;
+text-decoration:none;
+padding: 8px;
+color:#fff;
+margin-left:30px;
+
+}
+
+.excel1{
+background: linear-gradient(to bottom, #0088CC, #0044CC);
+width:40px;
+text-decoration:none;
+padding: 8px;
+color:#fff;
+margin-left:10px;
+
+}
+
+#form input[type=reset]{
+background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 20px 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+.button{
+background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 20px 10px;
+    padding: 5px;
+    width: 100px;
+
+}
+#form input[type=submit]{
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 10px 10px;
+	margin-left:200px;
+    padding: 5px;
+    width: 100px;
+}
+
+#form input[type=submit]:hover,
+#form input[type=reset]:hover {
+    cursor: pointer;
+}
+
+#form input[type=submit]:active,
+#form input[type=reset]:active {
+    background: #0088CC;
+}
+
+#form input[type=submit],
+#form input[type=reset] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+		font-family:'Trebuchet MS', sans-serif;
+}
+
+
+#form select,
+#form input[type=text],
+#form input[type=password] {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 225px;
+
+}
+
+
+
+
+#edithapus a {
+	color:#666;
+	text-decoration:none;
+	display:block;
+	//border-bottom:3px solid #999;
+	width:-20px;
+	float:left;
+	padding:10px 0px 15px 30px;
+	margin:0px;
+	//background-color:#DDDDDD;	
+	font-family:'Open Sans', sans-serif;
+	border-radius: 10px;
+}
+#edithapus a:hover {
+	//background-color:#F8CF11;
+	color: #fff;
+	//border-bottom:3px solid #999966;
+	-webkit-transition:background-color 300ms ease-in-out;
+	-moz-transition:background-color 300ms ease-in-out;
+}
+.edit { background:url(../images/edit.png) no-repeat 5px; }
+.hapus { background:url(../images/hapus.png) no-repeat 5px; }

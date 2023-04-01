@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding: 0;
+	font-style: calibri, "segeo ui", arial, tahoma, sans-serif;
+}
+
+
+body{
+	background:url(../images/bg11.jpg);
+}
+
+#wrapper{
+	width:auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#header{
+	background:#FFFFFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height: 110px;
+	width:auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+#header img{
+margin-left:250px;
+margin-top:15px;
+}
+
+#header h2{
+margin-left:350px;
+margin-top:20px;
+color:#330099;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+#header h3{
+margin-left:350px;
+margin-top:0px;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+#header h4{
+margin-left:350px;
+margin-top:0px;
+font-family:'Trebuchet MS', sans-serif;
+}
+
+
+#content-login{
+	background-color: #FFF;
+	box-shadow:0px 0px 10px 0px #000;
+	height:auto;
+	margin: 100px;
+	margin-left:430px;
+	overflow: hidden;
+	width:450px;
+	border-radius:5px;
+	}
+
+#content-login h1{
+	color:#262626;
+	width: 450px;
+	height: 30px;
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-top:10px;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:25px;
+	margin-left:-10px;
+	border-bottom:1px solid #ddd;
+	}
+	
+
+#content-login input[type=reset]{
+background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 20px -130px;
+    padding: 5px;
+    width: 100px;
+
+}
+#content-login input[type=submit] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 20px 150px;
+    padding: 5px;
+    width: 100px;
+}
+
+#content-login input[type=submit]:hover,
+#content-login input[type=reset]:hover {
+    cursor: pointer;
+}
+
+#content-login input[type=submit]:active,
+#content-login input[type=reset]:active {
+    background: #0088CC;
+}
+
+#content-login input[type=submit],
+#content-login input[type=reset] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+		font-family:'Trebuchet MS', sans-serif;
+}
+
+
+#content-login select,
+#content-login input[type=text],
+#content-login input[type=password] {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 225px;
+
+}
+
+
+.control-group {
+    margin: 10px 0;
+}
+
+.control-group > label {
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+	font-family:'Trebuchet MS', sans-serif;
+	font-size:14px;
+	color#262626;
+}
